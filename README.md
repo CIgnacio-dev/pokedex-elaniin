@@ -1,12 +1,38 @@
-# React + Vite
+# Pokedex Elaniin
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación desarrollada como prueba técnica para Elaniin.
 
-Currently, two official plugins are available:
+Este proyecto es una Pokédex que permite:
+- Ver las regiones de Pokémon.
+- Ver los Pokémon por región.
+- Crear un equipo de hasta 6 Pokémon.
+- Guardar equipos en Firebase.
+- Mostrar equipos guardados desde Firebase.
+- Eliminar o modificar equipos guardados.
+- Funcionalidades visibles solo si el usuario está logueado.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Tailwind CSS
+- Firebase (Realtime Database + Auth)
+- Vite
+- React Router
+- PokéAPI
+
+---
+
+## Demo
+
+🚀 Puedes ver un video o demo localmente ejecutando el proyecto.
+
+---
+
+## Instalación
+
+1. Clonar el repositorio:
+
+```bash
+git clone https://github.com/CIgnacio-dev/pokedex-elaniin.git
