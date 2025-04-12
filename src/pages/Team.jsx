@@ -123,6 +123,10 @@ function Team() {
       <h2 className="text-3xl font-bold text-yellow-400 mb-4">
         Mi equipo ({team.length}/6)
       </h2>
+      
+      <p className="text-center text-gray-300 mb-4">
+  Puedes guardar un equipo con mínimo <span className="text-yellow-400 font-bold">3</span> y máximo <span className="text-yellow-400 font-bold">6</span> Pokémon.
+</p>
 
       {currentUser && team.length >= 3 && (
         <button
